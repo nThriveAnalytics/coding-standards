@@ -21,6 +21,7 @@ Always use a single space after parentheses and never space in front of statemen
 ```php
 // Bad Code
 if ( $a === false ){ ...
+
 // Good Code
 if($a === false) { ...
 ```
@@ -156,6 +157,7 @@ var map = {
   when: 4,
   'you are': 15
 };
+
 // Acceptable for small objects
 var map = {ready: 9, when: 4, 'you are': 15};
 // Bad
@@ -271,6 +273,7 @@ Reduce markup. Whenever possible, avoid superfluous parent elements when writing
 <span class="avatar">
   <img src="...">
 </span>
+
 <!-- Better -->
 <img class="avatar" src="...">
 ```
@@ -308,6 +311,7 @@ Reduce markup. Whenever possible, avoid superfluous parent elements when writing
   background-color:rgba(0, 0, 0, 0.5);
   box-shadow:0px 1px 2px #CCC,inset 0 1px 0 #FFFFFF
 }
+
 /* Good CSS */
 .selector,
 .selector-secondary,
@@ -335,6 +339,7 @@ div.metricContainer,
 .chrt-x {
   padding:15px;   
 }
+
 /* Good CSS */
 .metric-container {
   padding: 15px;
@@ -351,6 +356,7 @@ Code is written and maintained by people. Ensure your code is descriptive, well 
 .modal-header {
   float: left;
 }
+
 /* Good example */
 /* Wrapping element for .modal-title and .modal-close */
 .modal-header {
