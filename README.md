@@ -11,14 +11,8 @@ These coding standards are set by the engineering team to help build a more stab
 
 ## PHP
 
-* Quotes and Spaces
-* Indentation
-* Brace Style
-* SQL Statements
-* Naming Conventions
-* Best Practices
 
-##### Quotes and Spaces
+### Quotes and Spaces
 
 Use single and double quotes when appropriate. If you're not evaluating anything in the string, use single quotes.
 
@@ -53,7 +47,7 @@ function anotherFunction(
 }
 ```
 
-##### Brace Style
+### Brace Style
 Braces shall be used for all blocks in the style shown here.
 
 ```php
@@ -81,7 +75,7 @@ if(condition) {
 
 Furthermore, if you have a really long block, consider whether it can be broken into two or more shorter blocks or functions.
 
-##### SQL Statements
+### SQL Statements
 
 * Always capitals the SQL parts of the statement like UPDATE or WHERE.
 * Always use parametrized statements for MySQL.
@@ -92,7 +86,7 @@ $slct->bindParam(':cube', $cube_identifier, PDO::PARAM_INT);
 $slct->execute();
 ```
 
-##### Naming Conventions
+### Naming Conventions
 
 * Class names should be the same as the file name and have capitalization on first letter of word.
 * Files follow camel case naming convention, excluding URL facing files which use a hyphen, lowercase convention and classes as covered above.
@@ -106,7 +100,7 @@ new ClassName {
 }
 ```
 
-##### Best Practices
+### Best Practices
 
 Never use shorthand PHP start tags. Always use full PHP tags.
 
@@ -120,7 +114,7 @@ Never use shorthand PHP start tags. Always use full PHP tags.
 * Strings
 * Best Practices
 
-##### Structure
+### Structure
 
 Use tabs for indentation and line breaks for statements.
 
@@ -161,11 +155,11 @@ var map = {ready: 9, when: 4, 'you are': 15};
 var map = { ready: 9,
   when: 4, 'you are': 15 };
 ```
-##### Naming Conventions
+### Naming Conventions
 
 Variable and function names should be full words, using camel case with a lowercase first letter.
 
-##### Commenting
+### Commenting
 
 Comments come before the code to which they refer, and should always be preceded by a blank line. Capitalize the first letter of the comment, and include a period at the end when writing full sentences. There must be a single space between the comment token (//) and the comment text.
 
@@ -186,7 +180,7 @@ over the span of multiple lines.
 */
 ```
 
-##### Equality
+### Equality
 
 Strict equality checks (===) must be used in favor of abstract equality checks (==). The only exception is when checking for both undefined and null by way of null.
 
@@ -197,7 +191,7 @@ if(undefOrNull == null) {
 }
 ```
 
-##### Strings
+### Strings
 Use single quotes for string literals. When a string contains single quotes, they need to be escaped with a backslash (\):
 
 ```javascript
@@ -206,7 +200,7 @@ var myStr = 'strings should be contained in single quotes';
 var myStr = 'Note the backslash before the \'single quotes\'';
 ```
 
-##### Best Practices
+### Best Practices
 
 Creating arrays in JavaScript should be done using the shorthand [] constructor rather than the new Array() notation.
 
@@ -227,13 +221,13 @@ var $object = {};
 * Attribute Order
 * Best Practices
 
-##### Syntax
+### Syntax
 
 * Indent all nested elements using a single tab.
 * Always use double quotes, never single quotes, on attributes.
 * Never omit optional closing tags. (eg. or )
 
-##### HTML5 doctype
+### HTML5 doctype
 
 Enforce standards mode and more consistent rendering in every browser possible with this simple doctype at the beginning of every HTML page.
 
@@ -241,7 +235,7 @@ Enforce standards mode and more consistent rendering in every browser possible w
 <!DOCTYPE html>
 ```
 
-##### Attribute Order
+### Attribute Order
 
 HTML attributes should come in this particular order for easier reading of code:
 
@@ -261,7 +255,7 @@ Classes make for great reusable components, so they come first. Ids are more spe
 <input class="form-control" type="text">
 <img src="..." alt="...">
 ```
-##### Best Practices
+### Best Practices
 
 Reduce markup. Whenever possible, avoid superfluous parent elements when writing HTML. Many times this requires iteration and refactoring, but produces less HTML. Take the following example:
 
@@ -282,7 +276,7 @@ Reduce markup. Whenever possible, avoid superfluous parent elements when writing
 * Commenting
 * Best Practices
 
-##### Structure
+### Structure
 
 * Use tabs for indentation.
 * When grouping selectors, keep individual selectors to a single line.
@@ -318,7 +312,7 @@ Reduce markup. Whenever possible, avoid superfluous parent elements when writing
 }
 ```
 
-##### Selectors
+### Selectors
 
 Exercise your best judgement when it comes to selectors. Being overly simple can cause conflict and being too specific can cause code bloat.
 
@@ -340,7 +334,7 @@ div.metricContainer,
 }
 ```
 
-##### Commenting
+### Commenting
 
 Code is written and maintained by people. Ensure your code is descriptive, well commented, and approachable by others.
 
@@ -358,7 +352,7 @@ Code is written and maintained by people. Ensure your code is descriptive, well 
 }
 ```
 
-##### Best Practices
+### Best Practices
 
 * Avoid using inline styling.
 * If you are attempting to fix an issue, attempt to remove code before adding more.
