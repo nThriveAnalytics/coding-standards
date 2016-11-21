@@ -23,9 +23,14 @@ Always use a single space after parentheses and never space in front of statemen
 if ( $a === false ){ ...
 // Good Code
 if($a === false) { ...
-Indentation
-Use tabs for indentation.
-Align multiple relative variables or values along their operator.
+```
+
+### Indentation
+
+* Use tabs for indentation.
+* Align multiple relative variables or values along their operator.
+
+```php
 $var_development = 'value1';
 $var_staging     = 'value1';
 $var_live        = 'value1';
@@ -37,6 +42,7 @@ Align array values or function parameters on new lines where the value or parame
 function newFunction($parameter_one,$parameter_two,$parameter_three) {
   ...
 }
+
 function anotherFunction(
   $paramOne,
   $paramTwo,
@@ -56,6 +62,7 @@ if( condition )
 {
 action1();
 }
+
 // Do not break statements to new lines
 else {
   action2();
