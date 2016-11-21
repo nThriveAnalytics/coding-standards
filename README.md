@@ -37,7 +37,7 @@ $var_staging     = 'value1';
 $var_live        = 'value1';
 ```
 
-Align array values or function parameters on new lines where the value or parameter count is more than three.
+Align array values for function parameters on new lines where the parameter count is greater than three. As a guiding principal, if a function requires greater than three parameters it may make sense to split the function into smaller methods. 
 
 ```php
 function newFunction($parameter_one,$parameter_two,$parameter_three) {
