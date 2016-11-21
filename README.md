@@ -1,12 +1,13 @@
-# coding-standards
-Coding standards for nThrive Analytics
+# nThrive Analytics Coding Standards
+
+Coding standards for nThrive Analytics.
 
 These coding standards are set by the engineering team to help build a more stable platform. They are meant to be "living" and may change as necessary to new languages or methods. Please adhere to these standards as much as possible.
 
-* PHP Coding Standards
-* Javascript Coding Standards
-* HTML Coding Standards
-* CSS Coding Standards
+* [PHP Coding Standards](#php)
+* [Javascript Coding Standards](#javascript)
+* [HTML Coding Standards](#html)
+* [CSS Coding Standards](#css)
 
 ## PHP
 
