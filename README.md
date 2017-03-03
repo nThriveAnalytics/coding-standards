@@ -8,6 +8,7 @@ These coding standards are set by the engineering team to help build a more stab
 * [Javascript Coding Standards](#javascript)
 * [HTML Coding Standards](#html)
 * [CSS Coding Standards](#css)
+* [Importing into PHP Storm](#importing into php storm)
 
 ## PHP
 
@@ -113,7 +114,7 @@ new ClassName {
 Never use shorthand PHP start tags. Always use full PHP tags.
 
 
-##Javascript
+## Javascript
 
 * Structure
 * Naming Conventions
@@ -372,7 +373,7 @@ Code is written and maintained by people. Ensure your code is descriptive, well 
 * Avoid using declarations on a one-off basis or quick fixes.
 * Avoid using the !important tag if possible.
 
-#Importing into PHP Storm
+# Importing into PHP Storm
 * Download the file PHPStorm-CodeStandards.xml for PHP Storm
 * In PHP Storm go to "Preferences" -> "Editor" -> "Code Style"
 * Next to "Scheme:" click the "Manage" button
