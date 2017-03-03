@@ -371,3 +371,12 @@ Code is written and maintained by people. Ensure your code is descriptive, well 
 * If you are attempting to fix an issue, attempt to remove code before adding more.
 * Avoid using declarations on a one-off basis or quick fixes.
 * Avoid using the !important tag if possible.
+
+#Importing into PHP Storm
+* Download the file PHPStorm-CodeStandards.xml for PHP Storm
+* In PHP Storm go to "Preferences" -> "Editor" -> "Code Style"
+* Next to "Scheme:" click the "Manage" button
+* Click "Import" then select "Intellij IDEA code style XML" and click OK
+* Select the file you downloaded and import
+
+If you find that something is incorrect in this code style file, please update it, export a new XML file and commit that change to this repo. Try not to replace the entire file, and only replace the change.
