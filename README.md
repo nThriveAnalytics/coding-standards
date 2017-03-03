@@ -8,7 +8,7 @@ These coding standards are set by the engineering team to help build a more stab
 * [Javascript Coding Standards](#javascript)
 * [HTML Coding Standards](#html)
 * [CSS Coding Standards](#css)
-* [Importing into PHP Storm](#importing into php storm)
+* [Importing into PHP Storm](#importing-into-php-storm)
 
 ## PHP
 
